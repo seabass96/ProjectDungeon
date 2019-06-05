@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89e5f4518f4e5d4384175c06ff37c40, type: 3}
+  m_Name: big zombie
+  m_EditorClassIdentifier: 
+  type: 2
+  health: 80
+  baseDamage: 2
+  animator: {fileID: 9100000, guid: cbded3faf1acb1b44b41eea127aba548, type: 2}
+  colliderOffset: {x: 0, y: 0.1}
+  colliderSize: {x: 0.15, y: 0.15}
+  cost: 3
+  sprite: {fileID: 21300000, guid: 37662fe8b1a568f47b2f8470597fb479, type: 3}
